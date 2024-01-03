@@ -1,0 +1,530 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+:root {
+  --pureWhite: #ffffff;
+  --lighterGray: #f8f6f2;
+  --lightGray: #ebe9e5;
+  --transparenGray:#ebe9e5d7;
+  --green: #2d5753;
+  --darkerGreen: #244642;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Satoshi', sans-serif;
+}
+
+body{
+  font-size: 16px;
+  background-color: var(--lighterGray);
+  color: var(--green);
+  
+}
+
+
+/* -----ESTILOS GENERALES----- */
+.hero{
+  display: flex;
+  max-width: 1600px;
+  gap: 60px;
+  margin: 17px auto 0;
+  padding: 50px 60px 0;
+  align-items: center;
+}
+
+.hero-texto{
+  /* Aquí le indico al divisor del texto que ocupe (en este caso) la mitad izquierda del espacio disponible de la pantalla */
+  width: 50%;
+}
+
+.hero-imagen{
+  /* Le indico a la imagen que ocupe el otro 50% de la oantalla para el lado derecho( en este caso) */
+  width: 50%;
+  /* El "overflow: hidden" es para que si la imagen sobresale, quede oculto. */
+  overflow: hidden;
+  height: 600px;
+  border-radius: 16px;
+}
+
+.hero-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  
+}
+
+/* -----ESTILOS DE CONTENIDO----- */
+
+.hero-imagen img{
+  width: 100%;
+  height: 100%;
+  /* "object-fit: cover" es para que la imagen quede contenida en el espacio asignado */
+  object-fit: cover;
+}
+
+
+
+.hero-top{
+  max-width: 100vw;
+  font-size: .75rem;
+  justify-content: center;
+  display: flex;
+  background-color: var(--darkerGreen);
+  color: var(--pureWhite);
+}
+
+.hero-brand{
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 20px;
+}
+
+.drop-servicios{
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+ 
+}
+
+/* *****DOP-BTNS***** */
+
+/* -----BTN 1----- */
+a.btn{
+  display: inline-block;
+  font-weight: 700;
+  cursor: pointer;
+  margin-right: 1rem;
+  padding-top: 1rem;
+}
+
+.hero-top-drop1{
+  position: relative;
+}
+
+.hero-top-drop1 > summary{
+  list-style: none;
+}
+
+.hero-top-drop1 ul{
+  position: absolute;
+  list-style: none;
+  padding: 15px 0;
+
+}
+
+.hero-top-drop1 ul li a:link, .hero-top-drop1 ul li a:visited{
+  display: inline-block;
+  padding: 10px 12px;
+  width: 100%;
+  text-decoration: none;
+}
+
+/*.hero-top-drop1{
+  display: inline-block;
+  position: relative;
+}
+
+.drop-btn1{
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  color: var(--darkerGreen);
+}
+
+.drop-content1{
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.drop-content1 a{
+  color: var(--darkerGreen);
+  padding: 1rem;
+  text-decoration: none;
+  display: block;
+  background-color: var(--transparenGray);
+  box-shadow: 0 0 10px #244642c7;
+}
+
+.drop-content1 a:hover{
+  color: var(--pureWhite);
+  background-color: var(--green);
+  
+ Seguir luego 
+
+}
+
+.hero-top-drop1:hover .drop-content1{
+  display: block;
+  color: var(--lightGray);
+}*/
+
+/* **************** */
+/* -----BTN 2----- */
+
+a.btn2{
+  display: inline-block;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 1rem;
+} 
+
+.hero-top-drop2{
+  position: relative;
+}
+
+.hero-top-drop2 > summary{
+  list-style: none;
+}
+
+.hero-top-drop2 ul{
+  position: absolute;
+  list-style: none;
+  padding: 15px 0;
+
+}
+
+.hero-top-drop2 ul li a:link, .hero-top-drop2 ul li a:visited{
+  display: inline-block;
+  padding: 10px 12px;
+  width: 100%;
+  text-decoration: none;
+}
+
+/* .hero-top-drop2{
+  display: inline-block;
+  position: relative;
+}
+
+.drop-btn2{
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  color: var(--darkerGreen);
+}
+
+.drop-content2{
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.drop-content2 a{
+  color: var(--darkerGreen);
+  padding: 1rem;
+  text-decoration: none;
+  display: block;
+  background-color: var(--transparenGray);
+ 
+}
+
+.hero-top-drop2:hover .drop-content2{
+  display: block;
+} */
+/* ***************** */
+/* -----BTN 3----- */
+a.btn .hero-top-drop3{
+  display: inline-block;
+  font-weight: 700;
+  cursor: pointer;
+  margin-right: 5px;
+  /* padding-top: 1rem; */
+}
+
+
+.hero-top-drop3{
+  position: relative;
+}
+
+.hero-top-drop3 > summary{
+  list-style: none;
+}
+
+.hero-top-drop3 ul{
+  position: absolute;
+  list-style: none;
+  padding: 15px 0;
+
+}
+
+.hero-top-drop3 ul li a:link, .hero-top-drop3 ul li a:visited{
+  display: inline-block;
+  padding: 10px 12px;
+  width: 100%;
+  text-decoration: none;
+}
+.rota.rotate {
+  transform: rotate(90deg);
+  transition: transform 0.3s ease;
+}
+
+.rota{
+  margin-left: -10px;
+  margin-top: 8px;
+}
+
+/* ******************************** */
+
+
+
+
+
+.hero-ingreso{
+  color: var(--darkerGreen);
+  padding-right: 15px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.hero-btn-borde{
+  color:var(--darkerGreen);
+  /* padding-left: 18px; */
+  font-family: 500;
+  outline:solid var(--darkerGreen);
+  padding: 15px;
+  margin-left: 20px;
+  background-color: var(--lightGray);
+
+}
+
+
+.avobe{
+  font-weight: 600;
+  font-size: 1rem;
+
+}
+
+.hero-h1{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.resaltado{
+  text-decoration: none;
+  box-shadow: inset 0 -0.3em 0 0 #dbfb5a;
+}
+
+.p-16{
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 20px 0 20px;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 80px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+.botones{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  max-width: 280px;
+  padding-top: 16px;
+  
+} 
+
+.hero-btn-principal{
+  background-color: var(--darkerGreen);
+  color: var(--pureWhite);
+  border-radius: 80px;
+  padding: 16px 24px;
+  
+}
+
+.hero-btn-off{
+  display: flex;
+  color: var(--darkerGreen);
+  padding-top: 20px;
+  gap: 8px;
+  transition: .35s;
+}
+
+.hero-btn-off:hover{
+  gap: 12px;
+}
+
+
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-top: 25px;
+  list-style: none;
+  font-size: .75rem;
+  font-weight: 500;
+  max-width: 480px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* font-family: 'Plus Jakarta Sans', sans-serif;
+:root {
+  --pureWhite: #ffffff;
+  --lighterGray: #f8f6f2;
+  --lightGray: #ebe9e5;
+  --green: #2d5753;
+  --darkerGreen: #244642;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 76px;
+  color: var(--green);
+}
+
+h2 {
+  font-size: 52px;
+  line-height: 72px;
+  color: var(--green);
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--green);
+}
+
+li {
+  color: var(--green);
+}
+
+body {
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+  background-color: var(--lighterGray);
+
+   overflow-x: hidden;  
+}
+
+.preNavegador {
+  display: flex;
+  
+  justify-content: center;
+  background-color: var(--darkerGreen);
+}
+
+.contenedor {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+.preNavegador p {
+  color: var(--pureWhite);
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1290px;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: var(--green);
+}
+
+ li{
+  list-style: none;
+} 
+
+.main {
+  display: flex;
+  align-items: center;
+  width: 800px;
+  margin-top: 40px ;
+}
+
+.left {
+  width: 90%;
+   width: 50%;
+  padding-right: 150px; 
+  
+}
+
+
+Es porque como la clase left ocupa el 50% y la clase imagen el otro 50%, el margin-right es un extra para poder quedar pegado a la pantalla. Si, por ejemplo,  ".left" fuera de 40% el width de ".imagen" tendria que ser de 60vw 
+.imagen {
+   width: 50vw;
+  height: 600px;
+  margin-right: -30vw; 
+  width: 47.3vw;
+  height: 600px;
+  margin-right: -42.8vw;
+  
+}
+
+.yo {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px 0 0 16px;
+} */
